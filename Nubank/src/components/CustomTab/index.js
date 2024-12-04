@@ -46,7 +46,7 @@ export function CustomTabBar({ state, descriptors, navigation }) {
                   <MaterialIcons
                     name={options.tabBarIcon}
                     size={34}
-                    color={isFocused ? '#8F2ABD' : '#535353'}
+                    color={isFocused ? '#8F2ABD' : '#ffffff'}
                   />
                 </View>
               </View>
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     bottom: 0,
-    backgroundColor: 'rgba(255,255,255,0.9)', 
+    backgroundColor: 'rgba(21,23,25,0.9)', 
     flexDirection: 'row',
     borderRadius: 99,
     gap: 8,
